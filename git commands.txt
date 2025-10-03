@@ -1,0 +1,17 @@
+q1
+git clone https://github.com/ubco-mds-2025-labs/data-541-lab-3-yihang9344.git
+cd data-541-lab-3-yihang9344
+git branch markdown
+git checkout markdown
+git status
+git add lab3_q1.md lab3_q2.md
+git commit -m “commit markdown”
+git push -u origin markdown
+
+q2
+git checkout main
+git merge markdown
+git push origin main
+git branch -d markdown
+git push origin –delete markdown
+git log –oneline
